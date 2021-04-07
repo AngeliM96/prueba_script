@@ -3,5 +3,5 @@ echo "Ingresa el numero de serie hasta el que cargaste"
 read numSerie
 msg="Cargado hasta el medidor $numSerie"
 git add . 
-git commit -m"${msg}"
+git commit -m "$msg"
 git push
